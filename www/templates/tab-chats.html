@@ -1,0 +1,22 @@
+<ion-view view-title="Contacts">
+  <ion-nav-bar class="bar-positive" align-title="center">
+    <ion-nav-back-button class="button-clear">
+      <i class="ion-arrow-left-c"></i> 
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="user in users" type="item-text-wrap" href="#/tab/chats/{{user._id}}">
+        <!-- <img ng-src="{{chat.face}}"> -->
+        <img src="./img/profile.jpg">
+        <h2>{{user.name}}</h2>
+        <p>Hey Im Using Chat App</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(user)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

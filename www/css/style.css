@@ -1,0 +1,84 @@
+/* Empty. Add your own CSS if you like */
+.rightDiv{
+	
+	/*padding: 5px;*/
+	width: 100%;
+	margin-bottom: 5px;
+	text-align: right;
+}
+.rightDiv > p.content{
+	background-color: #e1ffd4;
+	padding: 5px 15px 18px 8px;
+	border-radius: 5px 0 0 5px;
+	float:right;
+	max-width:90%;
+	margin:0;
+	min-width:65px;
+	text-align:left;
+}
+.leftDiv{
+	/*padding: 5px;*/
+	margin-bottom: 5px;
+	width: 100%;
+	text-align: left;
+}
+.leftDiv > p.content{
+	border-radius: 0 5px 5px 0;
+	padding: 5px 15px 18px 8px;
+	background-color: #c1fffc;
+	float:left;
+	max-width:90%;
+	margin:0;
+	min-width:65px;
+	text-align:left;
+}
+.rightDiv p small,.leftDiv p small{
+	position: absolute;
+    bottom: 0px;
+    right: 3px;
+    font-size: 10px;
+}
+.bg{
+	background-image: url('../img/bg.jpg');
+	background-size:100% 100%; 
+}
+.loginForm .list label i{
+	padding: 4px 8px 0 0;
+    font-size: 20px;
+    color: #fff;
+} 
+.loginForm .list .item{
+	background-color: #0a627b;
+    border-radius: 23px;
+    margin-bottom: 10px;
+}
+.loginForm .list input{
+	color: #fff;
+}
+.loginForm .list button{
+	border-radius: 23px;
+}
+.loginForm .list a.button{
+	color:#fff;
+}
+.form_logo {
+    margin: 30px 0;
+}
+.form_logo i{
+	font-size:100px;
+	color:#fff;
+}
+.form_logo h1{
+	color:#fff;
+}
+
+ion-footer-bar form,ion-footer-bar form input{
+	width:100%;
+}
+
+ion-footer-bar form .item{
+	padding:0px;
+}
+.scroll-bar-v{
+	display:none;
+}

@@ -1,0 +1,48 @@
+<ion-view class="bg" view-title="Login">
+  <ion-content padding="10">
+      
+        <!-- <div class="list">
+          <label class="item item-input item-floating-label">
+            <span class="input-label">User Name</span>
+            <input type="text" placeholder="User Name" ng-model="user.username">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Password</span>
+            <input type="password" placeholder="Password" ng-model="user.password">
+          </label>
+        </div> -->
+        <div class="loginForm">
+          <div class="list">
+            <div class="form_logo text-center">
+              <i class="icon ion-chatbubbles"></i>
+              <h1>Chat App</h1>
+            </div>
+            <form name="authorizationForm" class="" novalidate="" ng-submit="doLogin()">
+              <label class="item item-input">
+                <i class="icon ion-person"></i>
+                <input type="text" placeholder="User Name" ng-model="user.username">
+              </label>
+              <label class="item item-input">
+                <i class="icon ion-lock-combination"></i>
+                <input type="password" placeholder="Password" ng-model="user.password">
+              </label>
+              <button class="button button-full button-balanced" type="submit">
+                <b>Login</b>
+              </button>
+              </form> 
+            
+            <a href class="button button-clear button-block">
+              Forgot Password?
+            </a>
+            <a ui-sref="signup" class="button button-clear button-block">
+              Create account</a>
+          </div>
+        </div>
+        <!-- <div class="text-right">
+          <a class="button button-clear button-positive" ui-sref="tab.signup">
+            Create account
+          </a>
+        </div> -->
+       
+  </ion-content>
+</ion-view>
